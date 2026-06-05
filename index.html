@@ -225,7 +225,7 @@ document.getElementById('toggleStars').addEventListener('click', function() {
             
             // Όσο πέφτουν τα αστέρια, το φεγγάρι γεμίζει σιγά-σιγά
             if (moonProgress < 100) {
-                moonProgress += 0.5; // <-- Αλλάξτε αυτό για να γεμίζει πιο γρήγορα ή πιο αργά
+                moonProgress += 1; // <-- Αλλάξτε αυτό για να γεμίζει πιο γρήγορα ή πιο αργά
                 shadow.style.left = moonProgress + '%'; // Σπρώχνει τη σκιά δεξιά
             }
         }, 250);
